@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> landing page </title>
+
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="navbar">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">
+                    logo
+                </a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#section1" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#section2" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="#section3" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#section4" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="section1">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+
+                    <img src="assets\img\kindpng_110961.png" alt=""
+                        data-speed="2" class="move">
+                </div>
+
+                <div class="home__data">
+                    <h2 class="home__title">Friends <br>of Meditation</h2>
+                    <p class="home__description">Innovation for relaxation</p>
+                    <a href="#" class="home__button">Explore</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== Products =====-->
+        <section class="product" id="section2">
+            <div class="product">
+                <h1>Products</h1>
+                <ul class="flexbox-container">
+                    <li>
+                        <img src="assets\img\sleep__mask.jpg">
+                        <div class="flexbox item description"><span>Sleep Mask</span></div>
+                    </li>
+
+                    <li>
+                        <img src="assets\img\yoga__mat.png" id="flexbox-item2">
+                        <div class="flexbox item description "><span>Yoga Mat</span></div>
+
+                    </li>
+
+                    <li>
+                        <img src="assets\img\yoga__props.jpg">
+                        <div class="flexbox item description"><span>Yoga Props</span></div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!--===== About =====-->
+        <section class="about" id="section3">
+            <h1>About us</h1>
+            <div class="about__container">
+                <div class="about__image">
+                    <img src="assets\img\about.jpg">
+                </div>
+                <div class="about__description">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>Beatae excepturi rem placeat esse voluptatibus aperiam
+                        <br> distinctio dio culpa, minima dolorum soluta nostrum
+                        <br> sit! Ducimus veniam quod debitis eveniet suscipit aliquid?
+                        <br> <a href="#" class="about__button">Learn More</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--===== Contact =====-->
+        <section class="contact" id="section4">
+
+            <div style="background-color:#E0E0E0">
+
+                <h1>Contact Us</h1>
+                <p>For order, shipment, product-related queries
+                    <br>Call 1800 123 456 (Monday to Saturday 00 am – 00 pm)
+                    <br>Email – xyz@gmail.com
+                    <br>For business-related queries
+                    <br> Email – sales@gmail.com
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
